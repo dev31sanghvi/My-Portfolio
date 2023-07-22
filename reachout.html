@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <scriptsrc="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script> <link rel="stylesheet"
+        href="styles.css" />
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="reachout.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <div class="transition transition-1 is-active"></div>
+    <!--Side bar-->
+    <div id="mySidebar" class="sidebar flex">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <!--<li><a href="#">Projects</a></li>-->
+            <li><a href="reachout.html">Contact</a></li>
+        </ul>
+    </div>
+    <div class="about-container">
+        <!--NAV-->
+        <nav class="flex" id="about">
+            <div class="contactheading">
+                <h1>Let's Get in Touch</h1>
+            </div>
+            <div class="menu" onclick="openNav()">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+
+        <!-- contact us -->
+
+        <div class="wrapper">
+            <div class="title">
+                <h1>Contact Me </h1>
+            </div>
+            <form class="contact-form" action="https://formsubmit.co/devsanghvi06@gmail.com" method="POST">
+                <div class="input-fields">
+                    <input type="text" class="input" placeholder="Name" required>
+                    <input type="email" class="input" placeholder="Email Address" required>
+                    <!-- <input type="text" class="input" placeholder="Phone"> -->
+                    <input type="text" class="input" placeholder="Subject" required>
+                </div>
+                <div class="msg">
+                    <textarea placeholder="Message" required></textarea>
+                    <button class="btn" type="submit">Send</button>
+                </div>
+            </form>
+        </div>
+        <!-- contact us -->
+
+
+
+
+
+
+
+
+        <!-- <footer id="footer">
+            <ul class="flex">
+                <li>
+                    <a href="https://www.linkedin.com/in/dev-sanghvi-6137401b1/" target="_blank"><i
+                            class="fab fa-linkedin-in"></i></a>
+                </li>
+                <li>
+                    <a href="https://github.com/dev31sanghvi" target="_blank"><i class="fab fa-github"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/DevSanghvi13"><i class="fab fa-twitter"></i></a>
+                </li>
+            </ul>
+        </footer> -->
+    </div>
+
+
+
+
+    </div>
+    <script>
+        window.onload = pageTransition();
+    </script>
+</body>
+
+</html>

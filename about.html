@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alegreya:ital@0;1&family=Cormorant:ital,wght@1,300&family=Fira+Sans:wght@100&family=Golos+Text&family=Kaushan+Script&display=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alegreya:ital@0;1&family=Cormorant:ital,wght@1,300&family=Fira+Sans:wght@100&family=Golos+Text&family=Josefin+Sans:wght@300&family=Jost:wght@300&family=Kaushan+Script&family=Source+Sans+Pro:ital,wght@0,300;1,200&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <link href="material/css/ripples.min.css" rel="stylesheet">
+  <link href="material/css/material-wfont.min.css" rel="stylesheet">
+
+  <link href="css/flipper.css" rel="stylesheet">
+  <script src="script.js"></script>
+  <title>About</title>
+</head>
+
+<body>
+  <!--Page Transition-->
+  <div class="transition transition-1 is-active"></div>
+  <!--Side bar-->
+  <div id="mySidebar" class="sidebar flex">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="https://drive.google.com/file/d/1mznwo7Am4aLKTCfBK1iI6hzlh6BJkeDo/view?usp=sharing">Resume</a></li>
+      <li><a href="reachout.html">Contact</a></li>
+    </ul>
+  </div>
+  <div class="about-container">
+    <!--NAV-->
+    <nav class="flex" id="about">
+      <div>
+        <h1 id="head">Dev's Portflio</h1>
+      </div>
+      <div class="menu" onclick="openNav()">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <!--SHOWCASE-->
+    <section class="about">
+      <div class="main">
+        <img src="./assets/logo.jpg" alt="" />
+        <div class="about-text">
+          <h1 class="desc">About Me</h1>
+          <h5 class="dessc">
+            <span>Developer</span> &<span> Designer</span>
+          </h5>
+          <p class="description">
+            I am Dev, a third year undergraduate Front-End WebDeveloper and
+            Designer, seamlessly blending creativity and code to conjure
+            captivating digital experiences.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--SKILLS-->
+
+    <div class="inner">
+      <div class="header">
+        <h1>My Skills</h1>
+      </div>
+      <div class="container">
+        <div class="skill-box">
+          <div class="skill-title">
+            <div class="img">
+              <img src="./assets/html.png" class="skill-icon" />
+            </div>
+            <h3>HTML</h3>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-title">
+            <div class="img">
+              <img src="./assets/css.png" class="skill-icon" />
+            </div>
+            <h3>CSS</h3>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-title">
+            <div class="img">
+              <img src="./assets/js.png" class="skill-icon" />
+            </div>
+            <h3>JavaScript</h3>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <div class="skill-title">
+            <div class="img">
+              <img src="./assets/wordpress.png" class="skill-icon" />
+            </div>
+            <h3>WordPress</h3>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <div class="skill-title">
+            <div class="img">
+              <img src="./assets/tailwind-css-icon.png" class="skill-icon" />
+            </div>
+            <h3>Tailwind</h3>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <div class="skill-title">
+            <div class="img">
+              <img src="./assets/bootstrap.png" class="skill-icon" />
+            </div>
+            <h3>Bootstrap</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- work section -->
+    <div class="container-fluid contenedor text-center">
+      <h1 class="text-center">Some of My Projects</h1>
+      <div class=" container text-center">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 container_foto ">
+          <div class="ver_mas text-center">
+            <span class="lnr lnr-eye"></span>
+          </div>
+          <article class="text-left">
+            <h2>TO-Do Application</h2>
+            <h4>using - HTML , CSS , Js </h4>
+            <a href="https://github.com/dev31sanghvi/To-Do-Application">Link   </a>
+          </article>
+          <img src="https://img-aws.ehowcdn.com/400x400/ds-img.studiod.com/Half_Dome_from_Glacier_Point0_1.jpg" alt="">
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 container_foto">
+          <div class="ver_mas text-center">
+            <span id="click" class="lnr lnr-eye"></span>
+          </div>
+          <article class="text-left">
+            <h2>Financial education site </h2>
+            <h4>using - Tailwind CSS ,php </h4>
+            <a href="https://youtu.be/H5ylsYI7ucY">Link </a>
+          </article>
+          <img src="https://pbs.twimg.com/profile_images/781518570018648065/HcvZhTVn_400x400.jpg" alt="">
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 container_foto">
+          <div class="ver_mas text-center">
+            <span id="click" class="lnr lnr-eye"></span>
+          </div>
+          <article class="text-left">
+            <h2>Personal Assistant  </h2>
+            <h4>Terchnologies used - c++ </h4>
+            <a href="https://github.com/dev31sanghvi/Personalassistant">Link</a>
+          </article>
+          <img src="https://pbs.twimg.com/profile_images/781518570018648065/HcvZhTVn_400x400.jpg" alt="">
+        </div>
+      </div>
+    </div>
+
+
+    <!-- work section -->
+
+    <section class="skills">
+      <div class="pagination-container">
+        <ul class="pagination justify-content-center">
+          <li class="page-item">
+            <a class="page-link" href="index.html">Home</a>
+          </li>
+          <li class="page-item disabled">
+            <a class="page-link" href="about.html">About</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="reachout.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <ul class="flex">
+        <li>
+          <a href="https://www.linkedin.com/in/dev-sanghvi-6137401b1/" target="_blank"><i
+              class="fab fa-linkedin-in"></i></a>
+        </li>
+        <li>
+          <a href="https://github.com/dev31sanghvi" target="_blank"><i class="fab fa-github"></i></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/DevSanghvi13"><i class="fab fa-twitter"></i></a>
+        </li>
+      </ul>
+    </footer>
+  </div>
+  <script>
+    window.onload = pageTransition();
+    window.onload = scrollEffect();
+  </script>
+
+</body>
+
+</html>
